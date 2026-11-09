@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vicex — frontend developer creating clean, responsive websites with HTML, CSS and JavaScript.">
+  <meta name="theme-color" content="#090711">
+  <title>vicex — Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="site-glow glow-one"></div>
+  <div class="site-glow glow-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="vicex home"><span class="brand-mark">v</span><span>vic<span class="purple">ex</span></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+    <a class="button button-small header-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> HELLO, WORLD — I'M</p>
+        <h1>Building for the <span class="gradient-text">web.</span><br>I'm <span class="gradient-text">vicex.</span></h1>
+        <h2>Junior Frontend Developer</h2>
+        <p class="hero-description">I create clean, responsive and user-friendly web experiences with HTML, CSS and JavaScript. Always learning, always building.</p>
+        <div class="hero-actions">
+          <a class="button" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="button button-outline" href="#contact">Get in touch</a>
+        </div>
+        <div class="social-links" aria-label="Social links">
+          <!-- Replace # with your real profile URLs -->
+          <a href="#" aria-label="GitHub profile" title="Add your GitHub URL">GH</a>
+          <a href="#" aria-label="LinkedIn profile" title="Add your LinkedIn URL">in</a>
+          <a href="#" aria-label="X profile" title="Add your X URL">𝕏</a>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-label="Abstract developer illustration">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="art-glow"></div>
+        <div class="code-card code-card-top"><span class="code-dot"></span><span class="code-dot"></span><span class="code-dot"></span><b>index.html</b><span class="code-lines"> &lt;html&gt;<br>&nbsp;&nbsp;&lt;body&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;Hello, web!<br>&nbsp;&nbsp;&lt;/body&gt;<br>&lt;/html&gt;</span></div>
+        <div class="developer-figure">
+          <div class="figure-halo"></div>
+          <div class="figure-head"><div class="hair"></div><div class="ear ear-left"></div><div class="ear ear-right"></div><div class="eye eye-left"></div><div class="eye eye-right"></div><div class="nose"></div><div class="mouth"></div></div>
+          <div class="figure-neck"></div>
+          <div class="figure-body"><span class="hoodie-seam"></span><span class="hoodie-symbol">&lt;/&gt;</span></div>
+          <div class="figure-arm"></div>
+        </div>
+        <div class="floating-tag tag-html">&lt;HTML&gt;</div>
+        <div class="floating-tag tag-css">#CSS</div>
+        <div class="floating-tag tag-js">JS()</div>
+        <div class="code-card code-card-bottom"><span class="purple">const</span> passion = <span class="green">"building"</span>;</div>
+      </div>
+    </section>
+
+    <section class="about-panel section-wrap reveal" id="about">
+      <div class="about-icon" aria-hidden="true">✳</div>
+      <div class="about-text">
+        <p class="section-kicker">A LITTLE ABOUT ME</p>
+        <h2>Curious mind. <span class="gradient-text">Creative builder.</span></h2>
+        <p>I'm a beginner frontend developer learning to turn ideas into useful, good-looking websites. I enjoy experimenting with layouts, solving design problems and improving with every project.</p>
+      </div>
+      <div class="about-points">
+        <p><span>✦</span> Learning by building</p>
+        <p><span>✦</span> Responsive-first layouts</p>
+        <p><span>✦</span> Clean, readable code</p>
+        <p><span>✦</span> Open to beginner projects</p>
+      </div>
+    </section>
+
+    <section class="projects section-wrap" id="projects">
+      <div class="section-heading reveal">
+        <p class="section-kicker">SELECTED PRACTICE WORK</p>
+        <h2>Things I've <span class="gradient-text">built.</span></h2>
+        <p>These are concept projects made for practice. I'll replace them with real work as my portfolio grows.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-preview restaurant-preview">
+            <div class="preview-browser"><i></i><i></i><i></i><span>roastandroot.demo</span></div>
+            <div class="restaurant-content"><small>FRESH • LOCAL • DELICIOUS</small><strong>Good food.<br>Good mood.</strong><span class="preview-button">VIEW MENU</span></div>
+            <div class="food-shape"><span></span></div>
+          </div>
+          <div class="project-info"><div><h3>Restaurant landing page</h3><p>A warm, welcoming concept for a local restaurant.</p></div><span class="project-number">01</span></div>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <span class="project-status">Concept project</span>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-preview barber-preview">
+            <div class="preview-browser"><i></i><i></i><i></i><span>thefreshcut.demo</span></div>
+            <div class="barber-content"><small>THE FRESH CUT</small><strong>LOOK SHARP.<br>FEEL READY.</strong><span class="preview-button">OUR SERVICES</span></div>
+            <div class="barber-shape"><div></div></div>
+          </div>
+          <div class="project-info"><div><h3>Barbershop website</h3><p>A bold service page with a clear booking call-to-action.</p></div><span class="project-number">02</span></div>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+          <span class="project-status">Concept project</span>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-preview portfolio-preview">
+            <div class="preview-browser"><i></i><i></i><i></i><span>studioform.demo</span></div>
+            <div class="studio-content"><small>DESIGN • BUILD • GROW</small><strong>Make your<br>next idea <em>real.</em></strong><span class="preview-button">LET'S TALK ↗</span></div>
+            <div class="studio-orb"></div>
+          </div>
+          <div class="project-info"><div><h3>Creative studio page</h3><p>A simple, modern landing page for a creative brand.</p></div><span class="project-number">03</span></div>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <span class="project-status">Concept project</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills-contact section-wrap" id="skills">
+      <div class="skills-panel reveal">
+        <p class="section-kicker">MY TOOLKIT</p><h2>Skills I'm <span class="gradient-text">growing.</span></h2>
+        <div class="skill-list">
+          <div class="skill"><div class="skill-label"><span>HTML5</span><span>Learning</span></div><div class="skill-track"><span style="width:72%"></span></div></div>
+          <div class="skill"><div class="skill-label"><span>CSS3</span><span>Learning</span></div><div class="skill-track"><span style="width:62%"></span></div></div>
+          <div class="skill"><div class="skill-label"><span>JavaScript</span><span>Learning</span></div><div class="skill-track"><span style="width:35%"></span></div></div>
+          <div class="skill"><div class="skill-label"><span>Responsive design</span><span>Practising</span></div><div class="skill-track"><span style="width:48%"></span></div></div>
+        </div>
+        <p class="skill-note">Progress bars are self-assessed placeholders. Update them as your skills develop.</p>
+      </div>
+      <div class="contact-panel reveal" id="contact">
+        <p class="section-kicker">HAVE A PROJECT IN MIND?</p><h2>Let's make something <span class="gradient-text">useful.</span></h2>
+        <p>Have a small website idea or want to collaborate on a practice project? Send me a message.</p>
+        <form id="contact-form">
+          <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="e.g. Alex" required>
+          <label for="email">Your email</label><input id="email" name="email" type="email" placeholder="alex@example.com" required>
+          <label for="message">How can I help?</label><textarea id="message" name="message" rows="4" placeholder="Tell me a little about your project..." required></textarea>
+          <button class="button" type="submit">Prepare message <span aria-hidden="true">↗</span></button>
+          <p class="form-note" id="form-note" role="status">The form opens your email app. Add your email address in script.js first.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap">
+    <a class="brand" href="#home"><span class="brand-mark">v</span><span>vic<span class="purple">ex</span></span></a>
+    <p>Learning, building, and getting better every day.</p>
+    <a class="back-top" href="#home">Back to top ↑</a>
+    <small>© <span id="year"></span> vicex. Built with HTML, CSS & JavaScript.</small>
+  </footer>
+</body>
+</html>
